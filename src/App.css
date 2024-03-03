@@ -1,0 +1,71 @@
+.page {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+form {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.form-fields {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.movies {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    text-align: center;
+    width: 100%;
+    gap: 32px;
+
+    margin: 0;
+    padding: 0;
+}
+
+.movie {
+    text-align: center;
+    transition: all .2s ease;
+}
+
+.movie h3, .movie p {
+    padding: 0;
+}
+
+.movie:hover {
+    transform: scale(1.1);
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
