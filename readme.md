@@ -34,5 +34,3 @@ Se tendrá en cuenta para la evaluación:
 - Técnicas de mejoras de rendimiento
 - Typescript
 - Patrones de diseño / Arquitectura
-
-KEY_API: 68f25f0e
