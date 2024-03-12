@@ -50,7 +50,7 @@ export const searchMovieById = async (id: string) => {
         };
 
     } catch (e) {
-        console.error('Error fetching movie details:', e);
+        console.error('Error al obtener detalles:', e);
         return null;
     }
 };
