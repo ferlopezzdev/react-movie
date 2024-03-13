@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { useMovies, } from '../hooks/useMovies';
+import { useMovies } from '../hooks/useMovies';
 import { ListOfMovies } from '../components/Movies';
 
 // Buscador de peliculas
